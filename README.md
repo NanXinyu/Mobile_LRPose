@@ -15,14 +15,17 @@ Results on COCO val2017 with detector having human AP of 68.4 on COCO val2017 da
 | Input size | #Params | GFLOPs | AP | AP^50 | AP^75 | AR |
 | -----------| ------- | ------ | -- | ----- | ----- | -- |
 |   256×192  |   1.5M  |  0.29  |68.4|  90.5 |  76.0 |71.8|
+
 Results on MPII val dataset
 | Input size | #Params | GFLOPs | PCKh |
 | -----------| ------- | ------ | ---- |
 |   256×256  |   1.5M  |  0.39  | 87.5 |
+
 Results on Human3.6M protocol1 dataset
 | Dir. | Dis. | Eat. | Gre. | Phon. | Pose | Pur. | Sit. | SitD. | Smo. | Phot. | Wait | Walk | WalkD. | WalkP. | Avg. | Params. | GFLOPs |
 | ---- | ---- | ---- | ---- | ----- | ---- | ---- | ---- | ----- | ---- | ----- | ---- | ---- | ------ | ----- | ---- | ------- | ------ |
 | 37.1 | 37.5 | 46.6 | 41.7 | 40.0 | 37.6 | 36.0 | 41.1 | 53.3 | 43.4 | 48.5 | 36.7 | 30.0 | 42.5 | 36.2 | 40.8 | 1.86M | 0.45 |
+
 Results on Human3.6M protocol2 dataset
 | Dir. | Dis. | Eat. | Gre. | Phon. | Pose | Pur. | Sit. | SitD. | Smo. | Phot. | Wait | Walk | WalkD. | WalkP. | Avg. | Params. | GFLOPs |
 | ---- | ---- | ---- | ---- | ----- | ---- | ---- | ---- | ----- | ---- | ----- | ---- | ---- | ------ | ----- | ---- | ------- | ------ |
