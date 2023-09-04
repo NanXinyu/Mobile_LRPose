@@ -10,3 +10,8 @@ Our model achieves superior performance to state-of-the-art lightweight
 achieves 25+ FPS on HUWEI Kirin 9000 and outperforms MoveNet in
 the same device. Our 3D model also makes nearly 50% and 90% reduction
 on parameters and FLOPs compared to lightweight alternatives. 
+# Results
+Results on COCO val2017 with detector having human AP of 68.4 on COCO val2017 dataset
+| Input size | #Params | GFLOPs | AP | AP^50 | AP^75 | AR |
+| -----------| ------- | ------ | -- | ----- | ----- | -- |
+|   256×192  |   1.5M  |  0.29  |68.4|  90.5 |  76.0 |71.8|
